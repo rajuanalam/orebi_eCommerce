@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from '../../Image'
 import Bannerimg from '../../../assets/bannerimg.jpg'
-// import Bannertwo from '../../assets/bannertwo.jpg'
 import Container from '../../Container'
 import Flex from '../../Flex'
 import Two from '../../Icons/Two'

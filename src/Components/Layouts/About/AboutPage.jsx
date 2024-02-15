@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 import Breadcrumb from '../../Breadcrumb'
 import { FaAngleRight } from "react-icons/fa";
 import { useDispatch, useSelector } from 'react-redux'
-import { pageName } from '../../../Slices/breadcrumbslice'
+import { pageName } from '../../../Slices/breadcrumbSlice'
 
 const AboutPage = () => {
     let bread = window.location.pathname.replace("/", "").replace("-", " ");

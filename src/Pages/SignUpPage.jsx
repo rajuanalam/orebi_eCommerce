@@ -11,7 +11,7 @@ import Breadcrumb from '../Components/Breadcrumb'
 import { FaAngleRight } from "react-icons/fa";
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { pageName } from '../Slices/breadcrumbslice'
+import { pageName } from '../Slices/breadcrumbSlice'
 
 // import { FaRegSquare } from "react-icons/fa";
 

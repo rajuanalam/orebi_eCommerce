@@ -4,7 +4,7 @@ import Image from '../../Image'
 import Logo from '../../../assets/logo.png'
 import List from '../../List'
 import { useDispatch } from 'react-redux'
-import { pageName } from "../../../Slices/breadcrumbslice"
+import { pageName } from "../../../Slices/breadcrumbSlice"
 
 const Header = () => {
   let dispatch = useDispatch()

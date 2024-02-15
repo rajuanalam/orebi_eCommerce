@@ -11,7 +11,7 @@ import Breadcrumb from '../Components/Breadcrumb'
 import { FaAngleRight } from "react-icons/fa";
 import { useDispatch, useSelector } from 'react-redux'
 import ReturningCustomer from '../Components/ReturningCustomer'
-import { pageName } from '../Slices/breadcrumbslice'
+import { pageName } from '../Slices/breadcrumbSlice'
 
 const LoginPage = () => {
     let [all, setAll] = useState([])
