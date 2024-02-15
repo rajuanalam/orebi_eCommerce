@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterSlice from '../Slices/counterSlice'
-import  breadcrumbSlice  from '../Slices/breadcrumbslice'
+import  breadcrumbSlice  from '../Slices/breadcrumbSlice'
 import cartSlices from '../Slices/cartSlices'
 
 
