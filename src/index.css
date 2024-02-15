@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sub {
+    position: relative;
+  }
+.sub label::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    border: 1px solid #767676;
+    position: absolute;
+    left: -10px;
+    top: 8px;
+  }
+
+.sub input:checked+ label::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    left: -8px;
+    top: 10px;
+    background: #767676;
+  }
+
+  .slick-slide > div {
+    margin: 0 15px;
+  }
